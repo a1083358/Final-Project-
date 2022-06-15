@@ -35,7 +35,7 @@ $mail->isSMTP(); // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com'; // Specify SMTP server
 $mail->SMTPAuth = true; // Enable SMTP authentication
 $mail->Username = 'a1083358@mail.nuk.edu.tw'; // SMTP username//目前不能用，在要demo的時候再改
-$mail->Password = 'cc3358yy'; // SMTP password//目前不能用，在要demo的時候再改
+$mail->Password = ''; // SMTP password//目前不能用，在要demo的時候再改
 $mail->SMTPSecure = 'ssl'; // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to
 
